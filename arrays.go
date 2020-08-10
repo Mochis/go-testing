@@ -19,4 +19,10 @@ func main() {
 	for i, v := range(sli) {
 		fmt.Printf("Slice Index[%d], Value: %d\n", i, v)
 	}
+	// changing slice and underlying array
+	arr2 := [...]int{1, 2, 3}
+	sli2 := arr2[0:2]
+	fmt.Printf("arr2[0] before change slice: %d\n", arr2[0])
+	sli2[0] = 11
+	fmt.Printf("arr2[0] after change slice: %d\n", arr2[0])
 }
