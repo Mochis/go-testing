@@ -4,7 +4,7 @@ import "fmt"
 import "strconv"
 import "math"
 
-func main() {
+func Truncate() {
 	var x string
 	for {
 		fmt.Println("Please, introduce a float number or 'quit' for exit: ")
