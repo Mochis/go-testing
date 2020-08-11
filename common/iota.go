@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"com.mochis/go-testing/season"
+	"com.mochis/common/season"
 )
 
 func Iota() {
