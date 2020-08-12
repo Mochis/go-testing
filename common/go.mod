@@ -1,4 +1,4 @@
-module com.mochis/common
+module github.com/mochis/go-testing/common
 
 go 1.14
 
