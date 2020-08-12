@@ -4,7 +4,7 @@ import (
 	"github.com/mochis/go-testing/utils"
 )
 
-func testImport() {
+func main() {
 	hello.Hello()
 }
 
