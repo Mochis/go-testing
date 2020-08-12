@@ -1,3 +1,3 @@
 module github.com/mochis/go-testing/utils
 
-go 1.14
+go 1.15
