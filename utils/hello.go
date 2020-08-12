@@ -1,12 +1,10 @@
-package utils
+package hello
 
 import (
 	"fmt"
-
-	//"github.com/mochis/go-testing/common"
 )
 
 func Hello() {
-	fmt.Printf("Hello World")
-	fmt.Printf("Hello World2")
+	fmt.Printf("Hello World\n")
+	fmt.Printf("Hello World2\n")
 }

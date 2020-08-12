@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	hello.Hello()
+	utils.Hello()
 }
 
