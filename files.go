@@ -17,7 +17,7 @@ func main() {
 	// Write in file
 	f.WriteString("package main\nimport \"fmt\"\n" +
 		"func main(){ fmt.Println(\"The go metafile\") }")
-	barr := []byte{1, 2, 3}
+	barr := []byte{'a', 'b', 'c', '\n'}
 	f2.Write(barr)
 
 	ioutil.WriteFile("anotherfile.log", []byte{'a', 'b'}, 0777)
